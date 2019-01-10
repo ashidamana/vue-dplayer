@@ -20,7 +20,7 @@ CDN: https://unpkg.com/vue-dplayer@latest/dist/
 
 ```js
 import VueDPlayer from 'vue-dplayer'
-import 'vue-dplayer/dist/vue-dplayer.css'
+import 'vue-dplayer/vue-dplayer.css'
 
 export default {
   components: {
@@ -30,14 +30,14 @@ export default {
 ```
 
 ## Props
-[Options Doc](http://dplayer.js.org/#/home?id=options)
+[Options Doc](http://dplayer.js.org/docs/#/?id=options)
 
 | Name | Type | Default | Description |
 | ---- | ---- | ------- | ----------- |
 | options | Object | -- | all player options |
 
 ## Events
-[Event binding Doc](http://dplayer.js.org/#/home?id=event-binding)
+[Event binding Doc](http://dplayer.js.org/docs/#/?id=event-binding)
 
 Example:
 
@@ -54,7 +54,7 @@ export default {
 
 ## API
 
-you can use all DPlayer [APIs](http://dplayer.js.org/#/home?id=api)
+you can use all DPlayer [APIs](http://dplayer.js.org/docs/#/?id=api)
 
 Example:
 

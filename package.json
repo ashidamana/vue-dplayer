@@ -1,41 +1,70 @@
 {
-  "name": "vue-dplayer",
-  "description": "A Vue 2.x video player component based on DPlayer",
-  "version": "0.0.10",
-  "main": "dist/vue-dplayer.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "test": "echo lol",
-    "build:example": "poi build example/index.js",
-    "build": "bili",
-    "example": "poi example/index.js",
-    "prepublishOnly": "npm run build"
+  "_from": "vue-dplayer@0.0.10",
+  "_id": "vue-dplayer@0.0.10",
+  "_inBundle": false,
+  "_integrity": "sha512-l6d6OnhEUO87lhAees9mEBUFsG5Thqv/VeEVZlSQ993/S0oxvWTDLjjkzH59hO2PALimBK2kB6yNYsHyJBgotw==",
+  "_location": "/vue-dplayer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vue-dplayer@0.0.10",
+    "name": "vue-dplayer",
+    "escapedName": "vue-dplayer",
+    "rawSpec": "0.0.10",
+    "saveSpec": null,
+    "fetchSpec": "0.0.10"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sinchang/vue-dplayer.git"
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-dplayer/-/vue-dplayer-0.0.10.tgz",
+  "_shasum": "d30b8d144c90844ba7f4e4b5ed212aa611ed3bd3",
+  "_spec": "vue-dplayer@0.0.10",
+  "_where": "/opt/lampp/htdocs/seraphweb",
+  "author": {
+    "name": "sinchang",
+    "email": "sinchangwen@gmail.com"
   },
   "bugs": {
     "url": "https://github.com/sinchang/vue-dplayer/issues"
   },
+  "bundleDependencies": false,
+  "dependencies": {
+    "dplayer": "^1.22.2",
+    "vue-github-badge": "1.0.1"
+  },
+  "deprecated": false,
+  "description": "A Vue 2.x video player component based on DPlayer",
+  "devDependencies": {
+    "bili": "2.0.0",
+    "poi": "9.6.13"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/sinchang/vue-dplayer#readme",
   "keywords": [
     "vue",
     "component",
     "player"
   ],
+  "license": "MIT",
+  "main": "dist/vue-dplayer.js",
+  "name": "vue-dplayer",
   "poi": {
     "dist": "example-dist"
   },
-  "author": "sinchang <sinchangwen@gmail.com>",
-  "devDependencies": {
-    "bili": "2.0.0",
-    "poi": "9.6.13"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinchang/vue-dplayer.git"
   },
-  "license": "MIT",
-  "dependencies": {
-    "dplayer": "^1.22.2",
-    "vue-github-badge": "1.0.1"
-  }
+  "scripts": {
+    "build": "bili",
+    "build:example": "poi build example/index.js",
+    "example": "poi example/index.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo lol"
+  },
+  "version": "0.0.10"
 }
