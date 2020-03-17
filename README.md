@@ -13,7 +13,7 @@
 ```bash
 npm install vue-dplayer -S
 ```
-
+ 
 ## Usage
 
 CDN: https://unpkg.com/vue-dplayer@latest/dist/
@@ -58,7 +58,7 @@ you can use all DPlayer [APIs](http://dplayer.js.org/docs/#/?id=api)
 
 Example:
 
-```js
+```jsjs
 <d-player ref="player"></d-player>
 
 export default {
